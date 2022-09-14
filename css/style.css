@@ -242,7 +242,7 @@ ul{
 .gallery{
     padding-top: 50px;
     padding-bottom: 50px;
-    /* background-color: #fdc60079; */
+    background-image:url("../img/egypt/GA-bg2.jpg") ;
     background-size: cover;
     justify-content: center;
 }
@@ -276,10 +276,11 @@ ul{
     
 }
 .gallery .images .box:hover img{
-    border: 5px solid #fdc500;
-    height: 100%;
-    width: 100%;
+    border: 5px solid var(--main-color);
+    /* height: 100%; */
+    /* width: 100%; */
     /* transform: rotate(3deg) scale(1.1); */
+    border-radius: 20px;
 }
 @media(min-width:768px){
     .gallery .images .box{
@@ -299,10 +300,12 @@ ul{
 }
 .gallery .images .box .caption{
     position: absolute;
+    text-align: center;
     left:0;
     padding:20px;
-    background-color: white;
-    width:100%;
+    border-radius: 20px;
+    background-color: var(--main-color);
+    width:85%;
     transition: .6s;
     bottom:-100%;
 }
@@ -311,6 +314,6 @@ ul{
     margin-bottom: 10px;
 }
 .gallery .images .box .caption p{
-    color: var(--main-color)
+    
 }
 /* End gallery */
