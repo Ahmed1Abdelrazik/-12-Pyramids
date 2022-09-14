@@ -128,14 +128,13 @@ ul{
         flex-direction: column;
         position: absolute;
         top:100%;
-        right:0;
+        right:30%;
         width: 25%;
+
         background-color: rgb(0 0 0 / 50%);
 
     }
-    header nav ul li a{
-        padding: 15px !important;
-    }
+
 }
 
 .header .container .menu li a{
@@ -149,8 +148,11 @@ ul{
     transition: .1s;
     padding:20px 10px;
 
-    
-
+}
+@media (max-width:767px){
+    .header .container .menu li a{
+        padding:0;
+    }
 }
 .header .container .menu li a.active,
 .header .container .menu li a:hover{
