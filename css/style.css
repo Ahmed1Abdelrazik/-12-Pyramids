@@ -195,7 +195,7 @@ ul{
 }
 .landing .text{
     position: absolute;
-    left: 10px;
+    /* left: 10px; */
     top:50%;
     transform: translateY(-50%);
     margin-top: 50px;
@@ -247,14 +247,21 @@ ul{
     justify-content: center;
 }
 .gallery .gallery-logo{
-
+    display: flex;
+    justify-content: center;
 }
 .gallery .gallery-logo img{
-    position: relative;
-    left:50%;
-    transform: translateX(-50%);
+
     height:150px;
     margin-bottom: 50px;
+}
+
+@media(max-width:767px){
+    /* .gallery .gallery-logo img{
+
+        left: 0;
+        transform: none;
+    } */
 }
 .gallery .images{
     display: flex;
