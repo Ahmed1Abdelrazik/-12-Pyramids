@@ -242,7 +242,7 @@ ul{
 .gallery{
     padding-top: 50px;
     padding-bottom: 50px;
-    background-image:url("../img/egypt/GA-bg2.jpg") ;
+    background-image:url("../img/egypt/background.jpg") ;
     background-size: cover;
     justify-content: center;
 }
@@ -318,3 +318,52 @@ ul{
     
 }
 /* End gallery */
+
+
+/* Start Video */
+.video {
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+}
+.video .logo {
+}
+.video .logo img{
+    position: relative;
+    left:50%;
+    transform: translateX(-50%);
+    height:200px;
+    margin-bottom: 50px;
+}
+.video .container .boxes{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* padding-top: 100px;
+    padding-bottom: 100px; */
+    flex-basis: 50%;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+}
+
+
+.video .container .boxes .text{
+    /* background-color: brown; */
+    color:rgb(0, 0, 0);
+    font-weight: bold ;
+    margin-right: 20px;
+    line-height: 10px;
+    width: 400px;
+}
+
+.video .container .boxes .text h2 p{
+    text-transform: uppercase;
+}
+
+.video .container .boxes video{
+    /* height: 500px; */
+    width: 400px;
+    border: 5px double #fdc600;
+    border-radius: 50px;
+    margin: 10px;
+}
+/* End Video */

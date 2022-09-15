@@ -1,3 +1,9 @@
 
 Color
 #FDC500
+
+
+ Great Sphinx of Giza
+Approximately 80 pyramids were built within the Kingdom of Kush, now located in the modern country of Sudan. Of those located in modern Egypt, most were built as tombs for the country's pharaohs and their consorts during the Old and Middle Kingdom periods
+
+.background{}
