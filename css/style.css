@@ -240,11 +240,23 @@ ul{
 /* Start Gallery */
 
 .gallery{
+    overflow: hidden;
+    position: relative;
     padding-top: 50px;
     padding-bottom: 50px;
-    background-image:url("../img/egypt/background.jpg") ;
-    background-size: cover;
+    /* background-image: url(../img/egypt/Gallery.jpg); */
+    background-color: #e9e5d78c;
+
     justify-content: center;
+}
+.gallery::before{
+    content: "";
+    position: absolute;
+    left:0;
+    top:20%;
+    width:100%;
+    height: 100%;
+    background-color: #fdc60044;
 }
 .gallery .gallery-logo{
     display: flex;
@@ -329,7 +341,7 @@ ul{
 
 /* Start Video */
 .video {
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.966);
     background-size: cover;
 }
 .video .logo {
@@ -382,13 +394,6 @@ ul{
     position: relative;
 
 }
-.footer .container{
-    position: relative;
-    height: 300px;
-
-    align-items: center;
-    padding-top: 100px;
-}
 .footer::before{
     content: "";
     position: absolute;
@@ -396,8 +401,16 @@ ul{
     top:0;
     width:100%;
     height: 100%;
-    background-color: rgb(0 0 0 / 70%);
+    background-color: rgb(0 0 0 / 90%);
 }
+.footer .container{
+    position: relative;
+    height: 300px;
+
+    align-items: center;
+    padding-top: 40px;
+}
+
 .footer .container .logo {
     display: flex;
     align-items: center;
@@ -406,9 +419,30 @@ ul{
 .footer .container .logo img{
     width: 200px;
 }
+.footer .container .email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
-.footer .container p{
-    margin-left: 20px;
+
+}
+.footer .container .email p{
+    color: #faf8eccb;
+    font-size: 15px;
+    font-weight: bold;
+}
+.footer .container .email a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding-top: 15px;
+    border-bottom: 2px double #fdc600af;
+    /* border-radius: 25px; */
+}
+
+.footer .container p.copyright{
+    float: right;
     color: beige;
     font-size: 15px;
 }

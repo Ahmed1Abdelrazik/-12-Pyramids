@@ -7,3 +7,16 @@ Color
 Approximately 80 pyramids were built within the Kingdom of Kush, now located in the modern country of Sudan. Of those located in modern Egypt, most were built as tombs for the country's pharaohs and their consorts during the Old and Middle Kingdom periods
 
 .background{}
+
+
+
+
+///to reset animation in js
+    image.classList.remove("run-animation");
+    void image.offsetWidth;
+    image.classList.add("run-animation");
+
+
+
+
+1280×720
